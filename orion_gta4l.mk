@@ -24,6 +24,18 @@ $(call inherit-product, device/samsung/gta4l/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
 
+# OrionOS
+ORION_MAINTAINER := YFMARCO
+ORION_MAINTAINER_LINK := https://t.me/YFMARCO
+ORION_BUILD_TYPE := UNOFFICIAL
+ORION_GAPPS := true
+TARGET_ENABLE_BLUR := false
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_HAS_UDFPS := false
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gta4l
 PRODUCT_NAME := orion_gta4l
