@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gta4l.mk
+    $(LOCAL_DIR)/orion_gta4l.mk

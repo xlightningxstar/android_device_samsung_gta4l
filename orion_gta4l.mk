@@ -26,7 +26,7 @@ $(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gta4l
-PRODUCT_NAME := lineage_gta4l
+PRODUCT_NAME := orion_gta4l
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
 PRODUCT_MANUFACTURER := samsung
