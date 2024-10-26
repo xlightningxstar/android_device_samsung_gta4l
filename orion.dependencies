@@ -24,6 +24,6 @@
   { "remote": "YFMARCO-Dev",
     "repository": "android_hardware_samsung",
     "target_path": "hardware/samsung",
-    "branch": "lineage-21"
+    "branch": "aosp"
   },
 ]
