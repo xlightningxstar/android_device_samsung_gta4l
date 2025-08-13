@@ -33,6 +33,13 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
+# AxionAOSP stuff
+AXION_CAMERA_REAR_INFO := 12,8,2,2
+AXION_CAMERA_FRONT_INFO := 8
+AXION_MAINTAINER := ⚡ŞŦΔŘŁØŘĐ
+AXION_PROCESSOR := Snapdragon_662™
+TARGET_ENABLE_BLUR := false
+
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="gta4lxx-user 12 SP1A.210812.016 T505XXS8CXG1 release-keys" \
